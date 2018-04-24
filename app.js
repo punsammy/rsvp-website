@@ -3,13 +3,10 @@ var app = express();
 
 app.set("view engine", "ejs");
 
-app.get('/', function(req, res){
-  res.render("home");
-});
-
-app.get('/rsvp', function(req, res){
-  res.render("rsvp");
-});
+// ROUTES
+var routes = require("./routes/index");
+//Route configuration
+app.use(routes);
 
 
 app.listen(process.env.PORT || 3000, function(){
