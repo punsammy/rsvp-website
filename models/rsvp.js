@@ -19,3 +19,5 @@ var RsvpSchema = new mongoose.Schema({
     type: String
   }
 });
+
+module.exports = mongoose.model("Rsvp", RsvpSchema);
