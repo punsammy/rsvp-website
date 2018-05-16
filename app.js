@@ -1,9 +1,7 @@
 var express = require("express");
 var app = express();
 var mongoose = require("mongoose");
-
-
-app.set("view engine", "ejs");
+var bodyParser = require("body-parser");
 
 //MODELS
 var Rsvp = require('./models/rsvp');
@@ -12,8 +10,13 @@ var Rsvp = require('./models/rsvp');
 var routes = require("./routes/index");
 
 // DATABASE CONFIG
-mongoose.connect("mongodb://amanda:" + process.env.MLABRSVPPW + "@ds221990.mlab.com:21990/wedding-guestlist",  {useMongoClient: true});
+mongoose.connect("mongodb://amanda:" + process.env.MLABRSVPPW + "@ds221990.mlab.com:21990/wedding-guestlist");
 mongoose.Promise = global.Promise;
+
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
+app.use(express.static(__dirname + "/public"));
+app.set("view engine", "ejs");
 
 //ROUTE CONFIGURATION
 app.use(routes);
