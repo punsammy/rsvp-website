@@ -15,3 +15,27 @@
 .details {
   text-align: center;
 }
+.modal{
+  position: fixed;; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  display: none;
+}
+.rsvp-form{
+  background-color: #fff;
+  padding: 5%;
+  width: 55%;
+  margin: auto;
+  top: 5%;
+}
+.rsvp-button{
+  width: 100%;
+}

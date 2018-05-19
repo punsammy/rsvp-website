@@ -27,7 +27,7 @@
         <a class="item">
           Details
         </a>
-        <a href="/rsvp" class="item">
+        <a href="#" class="item open-rsvp-modal">
           RSVP
         </a>
       </div>
@@ -37,13 +37,17 @@
       <h1>The Wedding</h1>
       <h3>Friday, July 13, 2018</h3>
       <h3>7:45 AM</h3>
-      <button>RSVP</button>
+      <button class="open-rsvp-modal">RSVP</button>
 
       <h2>Ceremony</h2>
       <h3>Royal Ambassador Banquet</h3>
       <h3>15430 Innis Lake Road, Caledon East, ON L7C 2Z1, Canada</h3>
     </div>
 
+    <% include ./rsvp.ejs %>
 
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
