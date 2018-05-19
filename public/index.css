@@ -1,0 +1,17 @@
+.hero {
+  text-align: center;
+  height: 100vh;
+  /*background-image: url("/images/engagement.png");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-text{
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+.details {
+  text-align: center;
+}
