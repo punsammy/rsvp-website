@@ -1,7 +1,19 @@
+html {
+  font-family: 'Dancing Script', cursive;
+}
+body{
+  position: relative;
+}
 .hero {
   text-align: center;
   height: 100vh;
   /*background-image: url("/images/engagement.png");*/
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("/images/engagement.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,6 +23,7 @@
   top: 30%;
   left: 0;
   right: 0;
+  color: #fff;
 }
 .details {
   text-align: center;
@@ -30,7 +43,7 @@
   display: none;
 }
 .rsvp-form{
-  background-color: #fff;
+  background-color: white;
   padding: 5%;
   width: 55%;
   margin: auto;
@@ -38,4 +51,7 @@
 }
 .rsvp-button{
   width: 100%;
+}
+.open-rsvp-modal{
+  color: white;
 }
