@@ -3,52 +3,51 @@
   <head>
     <meta charset="utf-8">
     <title>Amanda & Hark</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/menu.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/button.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/components/form.min.css"> -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <link rel="stylesheet" href="/semantic.css">
     <link rel="stylesheet" href="/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css">
+
   </head>
   <body>
-
-    <div class="hero">
-      <div class="hero-text">
-        <h1>Hark & Amanda</h1>
-        <h4>July 13th, 2018  •  Caledon, ON</h4>
-        <h6></h6>
+    <div class="container">
+      <div class="hero">
+        <div class="hero-text">
+          <h1>Hark & Amanda</h1>
+          <h4>July 13th, 2018  •  Caledon, ON</h4>
+          <h6></h6>
+        </div>
       </div>
-    </div>
 
-    <div class="ui secondary menu responsive">
-      <div class="header item">
-        A & H 2018
+      <div class="ui secondary menu responsive">
+        <div class="header item">
+          A & H 2018
+        </div>
+        <div class="right menu">
+          <a class="item">
+            Home
+          </a>
+          <a href="#details" class="item">
+            Details
+          </a>
+          <a href="#" class="item open-rsvp-modal">
+            RSVP
+          </a>
+        </div>
       </div>
-      <div class="right menu">
-        <a class="item">
-          Home
-        </a>
-        <a class="item">
-          Details
-        </a>
-        <a href="#" class="item open-rsvp-modal">
-          RSVP
-        </a>
+
+      <div id="details" class="details">
+        <h1>The Wedding</h1>
+        <h3>Friday, July 13, 2018</h3>
+        <h3>7:40 AM</h3>
+        <button class="ui grey button open-rsvp-modal">RSVP</button>
+
+        <h2>Ceremony</h2>
+        <h3>Royal Ambassador Banquet</h3>
+        <h3>15430 Innis Lake Road, Caledon East, ON L7C 2Z1, Canada</h3>
       </div>
+
+      <% include ./rsvp.ejs %>
     </div>
-
-    <div class="details">
-      <h1>The Wedding</h1>
-      <h3>Friday, July 13, 2018</h3>
-      <h3>7:45 AM</h3>
-      <button class="ui grey button open-rsvp-modal">RSVP</button>
-
-      <h2>Ceremony</h2>
-      <h3>Royal Ambassador Banquet</h3>
-      <h3>15430 Innis Lake Road, Caledon East, ON L7C 2Z1, Canada</h3>
-    </div>
-
-    <% include ./rsvp.ejs %>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

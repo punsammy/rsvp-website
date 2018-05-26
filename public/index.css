@@ -8,6 +8,7 @@ body{
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: 'Dancing Script', cursive;
 }
 .hero {
   text-align: center;
@@ -22,18 +23,23 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .hero-text{
   position: absolute;
-  top: 30%;
+  top: 45%;
   left: 0;
   right: 0;
+  font-size: 2em;
   color: #fff;
 }
 .details {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   padding: 5%;
+}
+.ui.secondary.menu.responsive{
+  background-color: #fff;
 }
 .modal{
   position: fixed;; /* Stay in place */
