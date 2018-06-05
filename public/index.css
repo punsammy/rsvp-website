@@ -2,13 +2,13 @@ html {
   height: 100%;
   width: 100%;
   font-family: 'Dancing Script', cursive;
+  /*font-family: 'Tangerine', cursive;*/
 }
 body{
   position: relative;
   height: 100%;
   width: 100%;
   margin: 0;
-  font-family: 'Dancing Script', cursive;
 }
 .hero {
   text-align: center;
@@ -34,12 +34,19 @@ body{
   color: #fff;
 }
 .details {
-  font-family: 'Dancing Script', cursive;
+  text-shadow: 1px 2px #474747;
+  color: #fff;
   text-align: center;
   padding: 5%;
+  background: url("/images/1114702.jpg");
+  /*background: url("/images/111560.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ui.secondary.menu.responsive{
-  background-color: #fff;
+  background-color: rgba(255,255,255,1);
+  margin-bottom: 0;
 }
 .modal{
   position: fixed;; /* Stay in place */
