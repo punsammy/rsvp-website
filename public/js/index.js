@@ -10,4 +10,5 @@ $(document).ready(function(){
   $('html').click(function(){
     $('.modal').fadeOut('fast');
   });
+
 });
