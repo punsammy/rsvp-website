@@ -27,7 +27,7 @@ body{
 }
 .hero-text{
   position: absolute;
-  top: 45%;
+  top: 30%;
   left: 0;
   right: 0;
   font-size: 2em;
@@ -47,6 +47,10 @@ body{
 .ui.secondary.menu.responsive{
   background-color: rgba(255,255,255,1);
   margin-bottom: 0;
+}
+.ui.secondary.menu.responsive{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .modal{
   position: fixed;; /* Stay in place */
