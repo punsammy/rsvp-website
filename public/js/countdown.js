@@ -10,7 +10,6 @@ $(document).ready(function(){
   };
 
   var daysLeft = getDaysRemaining(weddingDate).days
-  console.log(daysLeft);
 
   $('.countdown').html(daysLeft + " days to go!");
 });

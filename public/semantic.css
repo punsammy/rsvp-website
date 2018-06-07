@@ -16443,7 +16443,7 @@ ol.ui.list ol li,
 
 .ui.selection.list.list > .item:hover,
 .ui.selection.list > .item:hover {
-  background: rgba(0, 0, 0, 0.03);
+  /*background: rgba(0, 0, 0, 0.03);*/
   color: rgba(0, 0, 0, 0.8);
 }
 
