@@ -152,6 +152,12 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   padding: 20px 0;
 }
 
+@media (min-width:1200px){
+  .details-text{
+    font-size: 1.8em;
+  }
+}
+
 @media (max-width: 930px){
   .details-text{
     padding: 100px 0;
