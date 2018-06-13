@@ -92,12 +92,13 @@ body{
   background-color: rgba(255,255,255,1);
   margin-bottom: 0;
   font-size: 1.4em;
+  z-index: 5;
 
   /*font-family: 'Tangerine', cursive;*/
 }
 .modal{
   position: fixed;; /* Stay in place */
-  z-index: 10; /* Sit on top */
+  z-index: 15; /* Sit on top */
   left: 0;
   top: 0;
   bottom: 0;
