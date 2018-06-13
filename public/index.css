@@ -36,9 +36,6 @@ body{
   z-index: 5;
   /*font-family: 'Tangerine', cursive;*/
 }
-.mobile-menu .right .menu{
-
-}
 
 
 
@@ -62,6 +59,9 @@ body{
   height: 100%;
   /*font-family: 'Great Vibes', cursive;*/
   /*font-family: 'Tangerine', cursive;*/
+}
+.menu-details{
+  height:100%;
 }
 .details-image{
   position:absolute;
@@ -189,6 +189,7 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   .rsvp-form{
     width:65%;
   }
+
 }
 
 @media (max-width: 596px){
@@ -199,6 +200,11 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
     width:70%;
   }
 }
+@media (min-width:530px){
+  /*.ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu.mobile-menu{
+    display:none;
+  }*/
+}
 
 @media (max-width: 529px){
   .details-text{
@@ -207,6 +213,9 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   .rsvp-form{
     width:80%;
   }
+  /*.ui.menu:not(.vertical) .right.item, .ui.menu:not(.vertical) .right.menu.desktop-menu{
+    display:none;
+  }*/
 }
 
 @media (max-width: 463px){
