@@ -20,6 +20,8 @@ body{
   background-size: cover;
   background-attachment: fixed;
 }
+
+/* MENU */
 .fixed {
   position: fixed;
   top: 0;
@@ -27,20 +29,22 @@ body{
   z-index: 1;
 }
 
+.ui.secondary.menu.responsive{
+  background-color: rgba(255,255,255,1);
+  margin-bottom: 0;
+  font-size: 1.4em;
+  z-index: 5;
+  /*font-family: 'Tangerine', cursive;*/
+}
+.mobile-menu .right .menu{
+
+}
+
+
+
 .hero {
   text-align: center;
   height: 100%;
-  /*background-image: url("/images/engagement.png");*/
-  /*background:
-    linear-gradient(
-      rgba(0, 0, 0, 0.25),
-      rgba(0, 0, 0, 0.25)
-    ),
-    url("/images/enagement-small.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;*/
 }
 .hero-text{
   position: fixed;
@@ -49,15 +53,6 @@ body{
   right: 0;
   font-size: 2em;
   color: #fff;
-}
-.menu-details{
-  /*background: url("/images/1114702.jpg");*/
-  /*background: url("/images/111560.jpg");*/
-  /*background-position: center;*/
-  /*background-repeat: no-repeat;*/
-  /*background-size: cover;*/
-  /*height: 100%;*/
-  /*overflow: hidden;*/
 }
 .details {
   text-shadow: 1px 2px #474747;
@@ -88,14 +83,6 @@ body{
   font-size: 2.4em;
   margin-bottom:5%;
 }
-.ui.secondary.menu.responsive{
-  background-color: rgba(255,255,255,1);
-  margin-bottom: 0;
-  font-size: 1.4em;
-  z-index: 5;
-
-  /*font-family: 'Tangerine', cursive;*/
-}
 .modal{
   position: fixed;; /* Stay in place */
   z-index: 15; /* Sit on top */
@@ -113,7 +100,7 @@ body{
 .rsvp-form{
   background-color: white;
   padding: 5%;
-  width: 55%;
+  width: 65%;
   margin: auto;
   top: 5%;
   margin-bottom: 5%;
@@ -187,7 +174,6 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
 
 
 @media only screen and (max-width: 768px){
-
   h1.hero-text {
     font-size: 2em;
   }
@@ -200,17 +186,26 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
       font-size: 0.9em;
       margin: 5%;
   }
+  .rsvp-form{
+    width:65%;
+  }
 }
 
 @media (max-width: 596px){
   .details-text{
     padding: 105px 0;
   }
+  .rsvp-form{
+    width:70%;
+  }
 }
 
 @media (max-width: 529px){
   .details-text{
     padding: 110px 0;
+  }
+  .rsvp-form{
+    width:80%;
   }
 }
 
