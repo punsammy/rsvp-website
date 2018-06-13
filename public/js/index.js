@@ -12,9 +12,7 @@ $(document).ready(function(){
   });
 
   $(window).on('scroll', function(){
-    if ($(window).scrollTop() > 100) {
-      $('#nav').fadeIn();
-    }
+    $('.hero-text').css('opacity', 1-($(this).scrollTop())/100);
   });
 
   $(window).bind('scroll', function() {
