@@ -156,6 +156,9 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   .details-text{
     font-size: 1.8em;
   }
+  .menu-details{
+    min-height: 650px;
+  }
 }
 
 @media (max-width: 930px){
