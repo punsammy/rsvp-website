@@ -32,7 +32,7 @@ body{
 .ui.secondary.menu.responsive{
   background-color: rgba(255,255,255,1);
   margin-bottom: 0;
-  font-size: 1.4em;
+  font-size: 1.8em;
   z-index: 5;
   /*font-family: 'Tangerine', cursive;*/
 }
@@ -74,6 +74,7 @@ body{
 }
 .details-text{
   padding: 75px 0;
+  font-size: 1.6em;
 }
 .wedding-info{
   margin: 2.5%;
@@ -198,6 +199,9 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   }
   .rsvp-form{
     width:70%;
+  }
+  .ui.secondary.menu.responsive{
+    font-size: 1.4em;
   }
 }
 @media (min-width:530px){
