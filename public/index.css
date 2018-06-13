@@ -9,11 +9,6 @@ body{
   height: 100%;
   width: 100%;
   margin: 0;
-}
-.hero {
-  text-align: center;
-  height: 100vh;
-  /*background-image: url("/images/engagement.png");*/
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.25),
@@ -23,7 +18,29 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+}
+.fixed {
+  position: fixed;
+  top: 0;
+  /*height: 70px;*/
+  z-index: 1;
+}
 
+.hero {
+  text-align: center;
+  height: 100%;
+  /*background-image: url("/images/engagement.png");*/
+  /*background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("/images/enagement-small.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;*/
 }
 .hero-text{
   position: absolute;
@@ -33,24 +50,50 @@ body{
   font-size: 2em;
   color: #fff;
 }
+.menu-details{
+  /*background: url("/images/1114702.jpg");*/
+  /*background: url("/images/111560.jpg");*/
+  /*background-position: center;*/
+  /*background-repeat: no-repeat;*/
+  /*background-size: cover;*/
+  /*height: 100%;*/
+  /*overflow: hidden;*/
+}
 .details {
   text-shadow: 1px 2px #474747;
   color: #fff;
   text-align: center;
-  padding: 5%;
-  background: url("/images/1114702.jpg");
-  /*background: url("/images/111560.jpg");*/
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  height: 100%;
+  /*font-family: 'Great Vibes', cursive;*/
+  /*font-family: 'Tangerine', cursive;*/
+}
+.details-image{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  height: 100%;
+  width: 100%;
+}
+.details-text{
+  padding: 75px 0;
+}
+.wedding-info{
+  margin: 2.5%;
+  font-size: 1.2em;
+}
+.wedding-title{
+  font-size: 2.4em;
+  margin-bottom:5%;
 }
 .ui.secondary.menu.responsive{
   background-color: rgba(255,255,255,1);
   margin-bottom: 0;
-}
-.ui.secondary.menu.responsive{
-  margin-top: 10px;
-  margin-bottom: 10px;
+  font-size: 1.4em;
+
+  /*font-family: 'Tangerine', cursive;*/
 }
 .modal{
   position: fixed;; /* Stay in place */
@@ -79,4 +122,99 @@ body{
 }
 .open-rsvp-modal{
   color: white;
+}
+
+button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push {
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-family: 'Tangerine', cursive;
+  /*font-family: 'Dancing Script', cursive;*/
+}
+
+button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
+  background-color: #bbb;
+}
+.our-story{
+  background: linear-gradient( rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.65));
+}
+.our-story-content{
+  color: #fff;
+  padding: 10%;
+  /*font-family: 'Lobster', cursive;*/
+  font-family: 'Great Vibes', cursive;
+
+}
+.our-story-content h1{
+  text-align: center;
+}
+
+.thank-you{
+  background-color: #474747;
+  color: #fff;
+  background:
+    linear-gradient(
+      rgba(71, 71, 71, 0.90),
+      rgba(71, 71, 71, 0.90)
+    );
+  text-align: center;
+}
+.thank-you h1{
+  padding: 20px 0;
+}
+
+@media (max-width: 930px){
+  .details-text{
+    padding: 100px 0;
+  }
+}
+
+@media (min-width: 769px){
+  h1.hero-text {
+    font-size: 2.2em;
+  }
+
+  h4.hero-text {
+      font-size: 1.2em;
+  }
+
+  h6.countdown {
+      font-size: 1.2em;
+      margin: 5%;
+  }
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+  h1.hero-text {
+    font-size: 2em;
+  }
+
+  h4.hero-text {
+      font-size: 0.9em;
+  }
+
+  h6.countdown {
+      font-size: 0.9em;
+      margin: 5%;
+  }
+}
+
+@media (max-width: 596px){
+  .details-text{
+    padding: 105px 0;
+  }
+}
+
+@media (max-width: 529px){
+  .details-text{
+    padding: 110px 0;
+  }
+}
+
+@media (max-width: 463px){
+  .details-text{
+    padding: 115px 0;
+  }
 }
