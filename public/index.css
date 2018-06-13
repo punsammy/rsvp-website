@@ -62,6 +62,7 @@ body{
 }
 .menu-details{
   height:100%;
+  min-height: 600px;
 }
 .details-image{
   position:absolute;
