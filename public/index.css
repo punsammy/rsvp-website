@@ -152,37 +152,11 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
   padding: 20px 0;
 }
 
-@media (min-width:1200px){
-  .details-text{
-    font-size: 1.8em;
-  }
-  .menu-details{
-    min-height: 650px;
-  }
-}
-
 @media (max-width: 930px){
   .details-text{
     padding: 100px 0;
   }
 }
-
-@media (min-width: 769px){
-  h1.hero-text {
-    font-size: 2.2em;
-  }
-
-  h4.hero-text {
-      font-size: 1.2em;
-  }
-
-  h6.countdown {
-      font-size: 1.2em;
-      margin: 5%;
-  }
-}
-
-
 
 @media only screen and (max-width: 768px){
   h1.hero-text {
@@ -235,5 +209,32 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
 @media (max-width: 463px){
   .details-text{
     padding: 115px 0;
+  }
+}
+
+@media (min-width: 769px){
+  h1.hero-text {
+    font-size: 2.2em;
+  }
+
+  h4.hero-text {
+      font-size: 1.2em;
+  }
+
+  h6.countdown {
+      font-size: 1.2em;
+      margin: 5%;
+  }
+}
+
+@media (min-width:1200px){
+  .details-text{
+    font-size: 1.8em;
+  }
+  .menu-details{
+    min-height: 650px;
+  }
+  h6.countdown {
+    margin: 3%;
   }
 }
