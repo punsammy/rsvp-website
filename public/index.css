@@ -74,7 +74,7 @@ body{
   width: 100%;
 }
 .details-text{
-  padding: 75px 0;
+  padding: 115px 0;
   font-size: 1.6em;
 }
 .wedding-info{
@@ -196,7 +196,7 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
 
 @media (max-width: 529px){
   .details-text{
-    padding: 110px 0;
+    padding: 125px 0;
   }
   .rsvp-form{
     width:80%;
@@ -208,7 +208,7 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
 
 @media (max-width: 463px){
   .details-text{
-    padding: 115px 0;
+    padding: 135px 0;
   }
 }
 
@@ -230,11 +230,73 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
 @media (min-width:1200px){
   .details-text{
     font-size: 1.8em;
+    padding: 155px 0;
   }
   .menu-details{
-    min-height: 650px;
+    min-height: 850px;
   }
   h6.countdown {
     margin: 3%;
+  }
+}
+
+@media (min-width: 1440px){
+  .hero-text h1 {
+    font-size: 2.5em;
+  }
+
+  .hero-text h4{
+      font-size: 1.5em;
+  }
+
+  h6.countdown {
+      font-size: 1.5em;
+  }
+  .wedding-info{
+    font-size: 1.5em;
+  }
+  .wedding-title{
+    font-size: 2.5em;
+  }
+  button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push{
+    font-size: 1.1em;
+  }
+
+  .thank-you{
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 2560px){
+  .menu-details{
+    min-height: 1500px;
+  }
+  .details-text{
+    padding: 195px 0;
+  }
+
+  .hero-text h1 {
+    font-size: 5em;
+  }
+
+  .hero-text h4{
+      font-size: 2.8em;
+  }
+
+  h6.countdown {
+      font-size: 2.8em;
+  }
+  .wedding-info{
+    font-size: 2.8em;
+  }
+  .wedding-title{
+    font-size: 5em;
+  }
+  button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push{
+    font-size: 1.7em;
+  }
+
+  .thank-you{
+    font-size: 3em;
   }
 }
