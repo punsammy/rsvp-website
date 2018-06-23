@@ -216,9 +216,9 @@ button.ui.grey.button.open-rsvp-modal.details-rsvp-button.hvr-push:hover {
     display: none;
   }
 
-  .desktop-menu{
+  /*.desktop-menu{
     display: none !important;
-  }
+  }*/
   .mobile-menu{
     position: fixed;
     top:0;
